@@ -1,0 +1,66 @@
+body {
+	background-color: #f5f5f5; /* cor de fundo bege */
+	font-family: 'Merriweather', serif; /* fonte serifada para dar um toque de elegância */
+}
+
+.logo {
+	width: 100px; /* tamanho da logo */
+	margin: 20px; /* margem para a logo */
+}
+
+nav ul {
+	list-style: none; /* remove os pontos da lista */
+	margin: 0;
+	padding: 0;
+	display: flex; /* torna a lista horizontal */
+	justify-content: space-between; /* espaça os itens igualmente */
+}
+
+nav li {
+	margin-right: 20px; /* margem entre os itens */
+}
+
+nav a {
+	color: #333; /* cor do texto dos links */
+	text-decoration: none; /* remove o sublinhado */
+}
+
+nav a:hover {
+	color: #666; /* cor do texto dos links ao passar o mouse */
+}
+
+main {
+	display: flex; /* torna o conteúdo do main flexível */
+	flex-direction: column; /* torna o conteúdo do main vertical */
+	align-items: center; /* alinha os itens ao centro */
+	padding: 20px; /* margem para o conteúdo do main */
+}
+
+h1, h2, h3 {
+	color: #660033; /* cor do título */
+	font-weight: bold; /* torna o título em negrito */
+}
+
+.vinhos {
+	background-color: #fff; /* cor de fundo branca para a seção de vinhos */
+	padding: 20px; /* margem para a seção de vinhos */
+	border: 1px solid #ddd; /* borda para a seção de vinhos */
+	border-radius: 10px; /* arredonda as bordas */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra para a seção de vinhos */
+}
+
+table {
+	border-collapse: collapse; /* remove a borda entre as células */
+}
+
+th, td {
+	border: 1px solid #ddd; /* borda para as células */
+	padding: 10px; /* margem para as células */
+}
+
+footer {
+	background-color: #333; /* cor de fundo escura para o rodapé */
+	color: #fff; /* cor do texto do rodapé */
+	padding: 10px; /* margem para o rodapé */
+	text-align: center; /* alinha o texto do rodapé ao centro */
+}
